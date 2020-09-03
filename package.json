@@ -1,0 +1,23 @@
+{
+  "name": "YNC_Bot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.3",
+    "cron": "^1.7.1",
+    "discord.js": "^11.5.1",
+    "dotenv": "^8.0.0",
+    "he": "^1.2.0",
+    "node-gyp": "^5.0.3",
+    "puppeteer": "^1.19.0",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.4"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  }
+}
